@@ -1,0 +1,109 @@
+/* Form */
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    color: black; /* Dark gray */
+}
+  
+.example-full-width {
+    width: 100%;
+}
+  
+/* Button Group */
+.basicbnt {
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+  
+/* Title */
+.words {
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    color: black; /* Dark gray */
+}
+  
+/* Background */
+.bg {
+    background-color: black; /* Light gray */
+    color: black; /* Dark gray */
+    padding: 20px;
+    margin: 0 auto;
+    height: auto;
+}
+  
+/* Cards */
+.mat-card {
+    margin-bottom: 20px;
+    background-color: #fff; /* White */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+  
+/* Button Group Margin */
+.basicbnt {
+    margin-top: 20px;
+}
+  
+/* Button Row */
+.example-button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+/* Buttons */
+button.mat-raised-button,
+a.mat-raised-button,
+button.mat-button,
+a.mat-button {
+    margin: 10px;
+    background-color: #007bff; /* Blue */
+    color: black; /* White */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+  
+button.mat-raised-button:hover,
+a.mat-raised-button:hover,
+button.mat-button:hover,
+a.mat-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+  
+/* Section Title */
+.example-h2 {
+    font-size: 18px;
+    color: black; /* Dark gray */
+}
+  
+/* Section */
+.example-section {
+    margin-top: 10px;
+}
+  
+/* Calendar */
+.calendar {
+    background-color: #fff; /* White */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+  
+/* Inline Calendar Card Margin */
+.demo-inline-calendar-card {
+    margin-top: 20px;
+}
+mat-grid-tile {
+    background: lightblue;
+  }
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
